@@ -1,4 +1,1 @@
-docker run -it --name daskDockerfile -v C:/Users/Home/Desktop/docker/dask:/tf -p 8787:8787 -p 8878:8888 -p 8879:8889 -p 8880:8890 fa336de3e1f0
-
-cd /home/jovyan 
-jupyter notebook --ip=0.0.0.0 --allow-root
+docker run -it --name dask -v ${YOUR_DIRECTORY}:/tf -p 8787:8787 -p 8888:8888 emanuelbaq/tensorflow-dask
